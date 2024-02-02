@@ -1,1 +1,1 @@
-# Instagram-Downloader-Telegram-Bot
+# Qr code generator
