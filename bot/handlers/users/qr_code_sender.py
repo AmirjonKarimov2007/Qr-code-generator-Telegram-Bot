@@ -34,7 +34,7 @@ async def send_text_based_qr(message: types.Message):
     img.save('photo.png')
     img = InputFile('photo.png')
 
-    await message.reply_photo(img, caption = f'<b>✅ Qr code Tayyor \n\n👉@generate_qr_codes_bot</b>', parse_mode = 'HTML')
+    await message.reply_photo(img, caption = f'<b>✅ Qr code Tayyor \n\n👉@Generateqr3bot</b>', parse_mode = 'HTML')
 
 
 @dp.message_handler(content_types=types.ContentType.PHOTO)
